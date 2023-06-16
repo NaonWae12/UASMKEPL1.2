@@ -7,8 +7,8 @@ public class AppTest {
 
     @Test
     public void testPenjumlahan() {
-        double angka1 = 5.0;
-        double angka2 = 3.0;
+        double angka1 = 2.0;
+        double angka2 = 1.0;
         double expected = 8.0;
 
         double actual = penjumlahan(angka1, angka2);
@@ -18,7 +18,7 @@ public class AppTest {
 
     @Test
     public void testPengurangan() {
-        double angka1 = 5.0;
+        double angka1 = 1.0;
         double angka2 = 3.0;
         double expected = 2.0;
 
