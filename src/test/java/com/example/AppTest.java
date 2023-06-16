@@ -20,6 +20,8 @@ public class AppTest {
     public void testPengurangan() {
         double angka1 = 5.0;
         double angka2 = 3.0;
+        double angka3 = 5.0;
+        double angka4 = 6.0;
         double expected = 2.0;
 
         double actual = pengurangan(angka1, angka2);
