@@ -64,4 +64,4 @@ public class AppTest {
     private double pembagian(double angka1, double angka2) {
         return angka1 / angka2;
     }
-}
+}  
