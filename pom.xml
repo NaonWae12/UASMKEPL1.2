@@ -44,6 +44,13 @@
         <version>4.13.2</version>
         <scope>test</scope>
     </dependency>
+    
+     <!-- Dependensi SonarQube -->
+    <dependency>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.8.0.2131</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -97,6 +104,13 @@
                 <source>1.8</source>
                 <target>1.8</target>
             </configuration>
+        </plugin>
+        
+         <!-- Plugin SonarQube -->
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.8.0.2131</version>
         </plugin>
       </plugins>
     </pluginManagement>
