@@ -39,7 +39,7 @@ public class AppTest {
     }
 
     @Test
-    public void testPembagian() {
+    public void testPembag() {
         double angka1 = 6.0;
         double angka2 = 3.0;
         double expected = 2.0;
