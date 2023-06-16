@@ -59,7 +59,7 @@ public class AppTest {
 
     private double perkalian(double angka1, double angka2) {
         return angka1 * angka2;
-    }
+    }  
 
     private double pembagian(double angka1, double angka2) {
         return angka1 / angka2;
