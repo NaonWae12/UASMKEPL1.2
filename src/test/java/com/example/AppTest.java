@@ -64,4 +64,49 @@ public class AppTest {
     private double pembagian(double angka1, double angka2) {
         return angka1 / angka2;
     }
+
+    // Bad smell: Magic number
+    @Test
+    public void testPenguranganDenganAngkaNegatif() {
+        double angka1 = 5.0;
+        double angka2 = -3.0;
+        double expected = 8.0;
+
+        double actual = pengurangan(angka1, angka2);
+
+        assertEquals(expected, actual, 0.0001);
+    }
+
+    // Bad smell: No assertion
+    @Test
+    public void testPenjumlahanDenganAngkaNol() {
+        double angka1 = 5.0;
+        double angka2 = 0.0;
+
+        penjumlahan(angka1, angka2);
+    }
+
+    // Bad smell: Duplicate code
+    @Test
+    public void testPerkalianAngkaSama() {
+        double angka1 = 5.0;
+        double angka2 = 5.0;
+        double expected = 25.0;
+
+        double actual = perkalian(angka1, angka2);
+
+        assertEquals(expected, actual, 0.0001);
+    }
+
+    // Bad smell: Test name not descriptive
+    @Test
+    public void testPembagian2() {
+        double angka1 = 6.0;
+        double angka2 = 2.0;
+        double expected = 3.0;
+
+        double actual = pembagian(angka1, angka2);
+
+        assertEquals(expected, actual, 0.0001);
+    }
 }
