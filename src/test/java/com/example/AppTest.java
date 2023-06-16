@@ -2,7 +2,7 @@ package com.example;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+ 
 public class AppTest {
 
     @Test
@@ -20,7 +20,7 @@ public class AppTest {
     public void testPengurangan() {
         double angka1 = 5.0;
         double angka2 = 3.0;
-        double expected = 2.0;
+        double expected = 4.0;
 
         double actual = pengurangan(angka1, angka2);
 
