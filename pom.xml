@@ -42,7 +42,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/hendrianiyan/CI-CD-deployment</url>
+      <url>https://maven.pkg.github.com/NaonWae12/UASMKEPL1.2</url>
     </repository>
   </distributionManagement>
 
