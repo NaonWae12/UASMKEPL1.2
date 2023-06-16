@@ -15,7 +15,7 @@ public class AppTest {
 
         assertEquals(expected, actual, 0.0001);
     }
-
+  
     @Test
     public void testPengurangan() {
         double angka1 = 5.0;
