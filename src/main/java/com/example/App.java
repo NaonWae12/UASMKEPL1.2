@@ -6,10 +6,10 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan angka pertama: ");
+        System.out.print("Masukkan angka yang pertama: ");
         double angka1 = scanner.nextDouble();
 
-        System.out.print("Masukkan angka kedua: ");
+        System.out.print("Masukkan angka yang kedua: ");
         double angka2 = scanner.nextDouble();
 
         System.out.println("Pilih operasi matematika:");
