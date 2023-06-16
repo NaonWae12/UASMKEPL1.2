@@ -36,7 +36,7 @@ public class AppTest {
         double actual = perkalian(angka1, angka2);
 
         assertEquals(expected, actual, 0.0001);
-    }
+    } 
 
     @Test
     public void testPembagian() {
